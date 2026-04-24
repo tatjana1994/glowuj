@@ -35,12 +35,20 @@ export const metadata: Metadata = {
     siteName: 'Glowuj',
     locale: 'sr_RS',
     type: 'website',
+    images: [
+      {
+        url: '/ogimage.png',
+        width: 1200,
+        height: 630,
+        alt: 'Glowuj',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Glowuj',
-    description:
-      'Uploaduj fotografiju lica i tela i dobiješ personalizovanu paletu boja, body shape guide i outfit preporuke.',
+    description: 'Lična stilska analiza',
+    images: ['/ogimage.png'],
   },
   robots: {
     index: true,
